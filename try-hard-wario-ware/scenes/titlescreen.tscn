@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://bta0nf7dbemv0"]
+
+[ext_resource type="Script" uid="uid://ceemj8i46bryk" path="res://scenes/titlescreen.gd" id="1_3jj3l"]
+[ext_resource type="Texture2D" uid="uid://c551jqpasmb5h" path="res://backgrounds and textures/maxresdefault-1913993282.jpg" id="1_6d6rd"]
+
+[sub_resource type="FontVariation" id="FontVariation_ln005"]
+
+[node name="titlescreen" type="Node2D" unique_id=1095776604]
+position = Vector2(1, 1)
+script = ExtResource("1_3jj3l")
+
+[node name="background" type="TextureRect" parent="." unique_id=347750676]
+offset_left = -1.0
+offset_top = 7.0
+offset_right = 1279.0
+offset_bottom = 727.0
+texture = ExtResource("1_6d6rd")
+stretch_mode = 3
+
+[node name="title" type="RichTextLabel" parent="." unique_id=366469519]
+offset_left = 442.0
+offset_top = 21.0
+offset_right = 1149.0
+offset_bottom = 172.0
+theme_override_colors/default_color = Color(0.9731012, 0.0002452743, 0.33893347, 1)
+theme_override_colors/font_outline_color = Color(0.12370341, 0.019481406, 0.0571678, 1)
+theme_override_fonts/normal_font = SubResource("FontVariation_ln005")
+theme_override_font_sizes/normal_font_size = 108
+text = "mario is dead"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1314634075]
+offset_left = 585.0
+offset_top = 223.0
+offset_right = 1104.0
+offset_bottom = 401.0
+scale = Vector2(1.0383829, 1.5151722)
+
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=1649729709]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0.35781425, 0.33257157, 1)
+theme_override_font_sizes/font_size = 25
+text = "start resurection"
+
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=9016363]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.2542425, 5.6601762e-05, 0.9190712, 1)
+theme_override_font_sizes/font_size = 25
+text = "settings"
+
+[node name="Button3" type="Button" parent="VBoxContainer" unique_id=1838752163]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.88201815, 0, 0.23721972, 1)
+theme_override_font_sizes/font_size = 50
+text = "end life"
