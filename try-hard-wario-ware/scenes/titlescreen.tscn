@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bta0nf7dbemv0"]
 
 [ext_resource type="Script" uid="uid://ceemj8i46bryk" path="res://scenes/titlescreen.gd" id="1_3jj3l"]
-[ext_resource type="Texture2D" uid="uid://c551jqpasmb5h" path="res://backgrounds and textures/maxresdefault-1913993282.jpg" id="1_6d6rd"]
+[ext_resource type="Texture2D" uid="uid://dxuhxoi2ki115" path="res://backgrounds and textures/swash-2026-10-24_16:08:51.png" id="2_3jj3l"]
 
 [sub_resource type="FontVariation" id="FontVariation_ln005"]
 
@@ -9,19 +9,16 @@
 position = Vector2(1, 1)
 script = ExtResource("1_3jj3l")
 
-[node name="background" type="TextureRect" parent="." unique_id=347750676]
-offset_left = -1.0
-offset_top = 7.0
-offset_right = 1279.0
-offset_bottom = 727.0
-texture = ExtResource("1_6d6rd")
-stretch_mode = 3
+[node name="background" type="TextureRect" parent="." unique_id=1090770085]
+offset_right = 1143.0
+offset_bottom = 647.0
+texture = ExtResource("2_3jj3l")
 
 [node name="title" type="RichTextLabel" parent="." unique_id=366469519]
-offset_left = 442.0
-offset_top = 21.0
-offset_right = 1149.0
-offset_bottom = 172.0
+offset_left = 422.0
+offset_top = 5.0
+offset_right = 1137.0
+offset_bottom = 151.84485
 theme_override_colors/default_color = Color(0.9731012, 0.0002452743, 0.33893347, 1)
 theme_override_colors/font_outline_color = Color(0.12370341, 0.019481406, 0.0571678, 1)
 theme_override_fonts/normal_font = SubResource("FontVariation_ln005")
