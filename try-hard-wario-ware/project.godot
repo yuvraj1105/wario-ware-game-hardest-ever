@@ -13,6 +13,10 @@ config_version=5
 config/name="try-hard wario ware"
 config/features=PackedStringArray("4.7", "Mobile")
 
+[autoload]
+
+Global="*uid://bj1j7gnvjvd7e"
+
 [display]
 
 window/size/mode=2
