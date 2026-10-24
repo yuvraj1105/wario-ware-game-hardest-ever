@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="try-hard wario ware"
+run/main_scene="uid://bta0nf7dbemv0"
 config/features=PackedStringArray("4.7", "Mobile")
 
 [autoload]

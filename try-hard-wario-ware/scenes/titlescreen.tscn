@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bta0nf7dbemv0"]
 
 [ext_resource type="Script" uid="uid://ceemj8i46bryk" path="res://scenes/titlescreen.gd" id="1_3jj3l"]
-[ext_resource type="Texture2D" uid="uid://dxuhxoi2ki115" path="res://backgrounds and textures/swash-2026-10-24_16:08:51.png" id="2_3jj3l"]
+[ext_resource type="Texture2D" uid="uid://63ri26fwqm53" path="res://backgrounds and textures/title background.png" id="2_3jj3l"]
 
 [sub_resource type="FontVariation" id="FontVariation_ln005"]
 
@@ -10,8 +10,8 @@ position = Vector2(1, 1)
 script = ExtResource("1_3jj3l")
 
 [node name="background" type="TextureRect" parent="." unique_id=1090770085]
-offset_right = 1143.0
-offset_bottom = 647.0
+offset_right = 1141.0
+offset_bottom = 641.0
 texture = ExtResource("2_3jj3l")
 
 [node name="title" type="RichTextLabel" parent="." unique_id=366469519]
@@ -26,10 +26,10 @@ theme_override_font_sizes/normal_font_size = 108
 text = "mario is dead"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1314634075]
-offset_left = 585.0
-offset_top = 223.0
-offset_right = 1104.0
-offset_bottom = 401.0
+offset_left = 566.00006
+offset_top = 320.0
+offset_right = 1085.0
+offset_bottom = 498.0
 scale = Vector2(1.0383829, 1.5151722)
 
 [node name="Button" type="Button" parent="VBoxContainer" unique_id=1649729709]
